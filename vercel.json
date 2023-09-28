@@ -1,0 +1,10 @@
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/$1" }
+    ],
+    "routes": [
+      { "src": "/static/(.*)", "dest": "/static/$1" },
+      { "src": "/(.*)", "dest": "/" }
+    ]
+  }
+  
